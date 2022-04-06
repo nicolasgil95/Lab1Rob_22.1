@@ -4,7 +4,6 @@ import rospy
 from geometry_msgs.msg import Twist 
 from turtlesim.srv import TeleportAbsolute, TeleportRelative
 import termios, sys, tty
-from numpy import pi
 import math
 
 TERMIOS=termios
@@ -76,4 +75,4 @@ if __name__ == '__main__':
             except rospy.ROSInterruptException:
                 pass
         elif Key==chr(27): #ESC
-            i=0
+            sys.exit()
