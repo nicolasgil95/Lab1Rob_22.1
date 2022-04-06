@@ -5,24 +5,24 @@ from geometry_msgs.msg import Twist
 from turtlesim.srv import TeleportAbsolute, TeleportRelative
 import termios, sys, tty
 from numpy import pi
+import math
 
 TERMIOS=termios
 
-def restart():
+def teleport(x, y, ang):
     rospy.wait_for_service('/turtle1/teleport_absolute')
     try:
         teleportA = rospy.ServiceProxy('/turtle1/teleport_absolute', TeleportAbsolute) 
-        resp1 = teleportA(5.5, 5.5, 0)
+        resp1 = teleportA(x, y, ang)
         print('Teleported to x: {}, y: {}, ang: {}'.format(str(x),str(y),str(ang)))
     except rospy.ServiceException as e:
         print(str(e))
-
-def turn():
+def teleport1(li,ang):
     rospy.wait_for_service('/turtle1/teleport_relative')
     try:
-        teleportA = rospy.ServiceProxy('/turtle1/teleport_relative', TeleportRelative) 
-        resp1 = teleportA(0, 0, 180)
-        print('Teleported to x: {}, y: {}, ang: {}'.format(str(x),str(y),str(ang)))
+        teleportB = rospy.ServiceProxy('/turtle1/teleport_relative', TeleportRelative) 
+        resp2 = teleportB(li,ang)
+        #print('Teleported to x: {}, y: {}, ang: {}'.format(str(x),str(y),str(ang)))
     except rospy.ServiceException as e:
         print(str(e))
 
@@ -49,7 +49,7 @@ if __name__ == '__main__':
     while i==1:
         Key=getkey()
         if Key==chr(32): #espacio=char   
-            print("space")
+                teleport1(0,  math.pi)
         elif Key==chr(87) or Key==chr(119): #W 
             try:
                 pubVel(1,0)
@@ -71,6 +71,9 @@ if __name__ == '__main__':
             except rospy.ROSInterruptException:
                 pass
         elif Key==chr(82) or Key==chr(114): #R
-            print("R")
+            try:
+                teleport(5.5, 5.5, 0)
+            except rospy.ROSInterruptException:
+                pass
         elif Key==chr(27): #ESC
             i=0
