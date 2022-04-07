@@ -1,4 +1,5 @@
 # Lab 1: ROS integration with MATLAB and Python
+By: Jhon Brandol Muñoz Romero and Nicolas Gil Rojas
 ## Abstract
 In this lab we clone the hello turtle ROS repo and add two scripts, one in MATLAB and the other one in Python, so we can learn how to connect to ROS master node and use its topics and functions in both languages.
  - - - 
