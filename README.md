@@ -41,6 +41,13 @@
 
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/31Yrcs6/get.png" alt="get" border="0"></a>
 
+<p></p>
+<p style="text-align: justify;"><span data-contrast="auto" xml:lang="ES-ES" lang="ES-ES" class="TextRun SCXW69383841 BCX0"><span class="NormalTextRun SCXW69383841 BCX0">Por un lado, los movimientos con las teclas A, S, D y W se han conseguido mediante el t&oacute;pico </span><span class="NormalTextRun SCXW69383841 BCX0">turtle1/</span><span class="NormalTextRun SpellingErrorV2 SCXW69383841 BCX0">cmd</span><span class="NormalTextRun SCXW69383841 BCX0"> </span><span class="NormalTextRun SpellingErrorV2 SCXW69383841 BCX0">vel</span><span class="NormalTextRun SCXW69383841 BCX0">, y la funci&oacute;n que se modificar&aacute; para que la tortuga haga su respectivo movimiento es</span><span class="NormalTextRun SCXW69383841 BCX0"> &ldquo;</span><span class="NormalTextRun SpellingErrorV2 SCXW69383841 BCX0">pubVel</span><span class="NormalTextRun SCXW69383841 BCX0">(</span><span class="NormalTextRun SpellingErrorV2 SCXW69383841 BCX0">xvel</span><span class="NormalTextRun SCXW69383841 BCX0">, </span><span class="NormalTextRun SpellingErrorV2 SCXW69383841 BCX0">zvel</span><span class="NormalTextRun SCXW69383841 BCX0">)&rdquo; donde &ldquo;</span><span class="NormalTextRun SpellingErrorV2 SCXW69383841 BCX0">xvel</span><span class="NormalTextRun SCXW69383841 BCX0">&rdquo; indica el desplazamiento lineal en el plano, y &ldquo;</span><span class="NormalTextRun SpellingErrorV2 SCXW69383841 BCX0">zvel</span><span class="NormalTextRun SCXW69383841 BCX0">&rdquo; indica el movimiento en sentido horario con el valor de 1, y &ndash;1 para el sentido antihorario que debe realizar la tortuga.</span></span><span class="EOP SCXW69383841 BCX0" data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}">&nbsp;</span></p>
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/ZdBGnQK/pu.png" alt="pu" border="0"></a>
+
+
+
 
 <h2><strong>Resultados y&nbsp;</strong><strong>an&aacute;lisis&nbsp;</strong></h2>
 
