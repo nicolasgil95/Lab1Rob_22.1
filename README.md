@@ -77,10 +77,10 @@ Now, let's check the script, run a nano command like this from the catkin worksp
 
 This will open the script in the terminal session. First of all there are the library imports used. Apart from the used in the others python scripts included in the package there's the import of _termios_, _sys_ and _tty_ libraries that will be used to get the pressed key as this [page](https://stackoverflow.com/questions/34497323/what-is-the-easiest-way-to-detect-key-presses-in-python-3-on-a-linux-machine) shows.
 
-Then there's the definition of the functions used for reset, U-turn and movement required. The function teleport uses the service _teleport_absolute_ and will teleport the turtle to the _X_, _Y_ and _ang_ desired inputs, as it's used for resetting the turtle position we're using _5.5_, _5.5_ and _0_  as the input of the function. 
-
+Then there's the definition of the functions used for reset, U-turn and movement required. The function teleport uses the service _teleport_absolute_ and will teleport the turtle to the _X_, _Y_ and _ang_ desired inputs, as it's used for resetting the turtle position we're using _5.5_, _5.5_ and _0_  as the input of the function. Therefore, the movement with the R keys to return to its center position and orientation, so the services turtle1/teleport absolute are implemented.
+<a href="https://ibb.co/6yFXH6K"><img src="https://i.ibb.co/PrgDcB2/tele.png" alt="tele" border="0"></a>
 The next function, _teleport1_ receives two values and uses the _teleport_relative_ service. As the function is used to the U-turn of the turtle the input will be _0_ and _math.pi_. Then is defined the function pubVel which is used to do the movements of the turtle being a publisher for the topic _/turtle1/cmd_vel_. As we don't need a _Y_ axis movement we only need two inputs, one for the linear move and the other one for angular rotation.  
-
+<a href="https://ibb.co/GFYn4dt"><img src="https://i.ibb.co/1by7t0d/tele1.png" alt="tele1" border="0"></a>
 Finally there's defined the function to read the keys. Then appears the main routine that will check which key is pressed and only reacts to: _W_, _S_, _A_ and _D_ for movement and rotations, _space_ for U-turn, and _R_ to reset turtle position and _Esc_ to end the python process.  
 
 Now that you know how that code works you can get out of nano editor using _ctrl+x_ and run the scrip using the command 
