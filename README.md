@@ -39,9 +39,7 @@ If everything went well our turtlesim window will pop up with a turtle on it.
 
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/TLTZQ0Q/Screenshot-from-2022-04-06-20-48-17.png" alt="Screenshot-from-2022-04-06-20-48-17" border="0"></a>
 
-ow launch MATLAB and navigate to the scripts folder of the cloned repository. Once there open the  
-
-Lab1.m file. It has six sections, the first has three lines where the more relevant is ´rosinit´ because it will allow MATLAB connect to ROS master node. Here you must have the ROS toolbox installed in MATLAB. 
+Now launch MATLAB and navigate to the scripts folder of the cloned repository. Once there open the _Lab1.m_ file. It has six sections, the first has three lines where the more relevant is ´rosinit´ because it will allow MATLAB connect to ROS master node. Here you must have the ROS toolbox installed in MATLAB. 
 
 The next section will create a publisher called _velPub_ and a publish message _velMsg_. The third section will assign a value to the message that will be published and that value is a linear type in X direction with a value of 1, then will send the previous configured message to the topic. 
 
