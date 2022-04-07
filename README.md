@@ -15,7 +15,7 @@
 <ul>
 <li><strong>Utilizando Python: </strong></li>
 </ul>
-<p>Procedimiento<strong>:<br /></strong>Se crear en un script de Python en el paquete hello turtle de ROS en la carpeta de scripts con el nombre myTeleopKey.py<strong></strong></p>
+<p>Procedimiento<strong>:<br /></strong>Se crear en un script de Python en el paquete hello turtle de ROS en la carpeta de scripts con el nombre myTeleopKey.py , el cual fue edictado en Visual estudio code.<strong></strong></p>
 <h2><strong>Resultados y&nbsp;</strong><strong>an&aacute;lisis&nbsp;</strong></h2>
 <a href="https://ibb.co/80r83Xj"><img src="https://i.ibb.co/1Lr2Vb9/scri.png" alt="scri" border="0"></a>
 <h2><strong>conclusiones.</strong></h2>
