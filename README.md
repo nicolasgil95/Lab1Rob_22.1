@@ -26,6 +26,8 @@
 </ul>
 <p>Procedimiento<strong>:<br /></strong>Se crear en un script de Python en el paquete hello turtle de ROS en la carpeta de scripts con el nombre myTeleopKey.py , el cual fue edictado en Visual estudio code.<strong></strong></p>
 <p>&nbsp;</p>
+<a href="https://ibb.co/80r83Xj"><img src="https://i.ibb.co/1Lr2Vb9/scri.png" alt="scri" border="0"></a>
+
 <p><span data-contrast="auto">Por lo tanto, se escribe el c&oacute;digo para que la tortuga del paquete turtlesim se mueva con el teclado, dado esto, se realiza las siguientes especificaciones:</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}">&nbsp;</span></p>
 <ul>
 <li><span data-contrast="auto"> Se debe mover hacia adelante y hacia atr&aacute;s con las teclas W y S</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"></span></li>
@@ -33,9 +35,12 @@
 <li><span data-contrast="auto"> Debe retornar a su posici&oacute;n y orientaci&oacute;n centrales con la tecla R</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"></span></li>
 <li><span data-contrast="auto"> Debe dar un giro de 180&deg; con la tecla ESPACIO</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"></span></li>
 </ul>
-
+</p>
+<p><span data-contrast="auto">Primero, se lograr detectar las teclas que son presionadas, as&iacute; que, se importa el m&eacute;todo termios de python, ya que, se presentaban algunos problemas en Linux con alguna librer&iacute;a.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}">&nbsp;</span></p>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/31Yrcs6/get.png" alt="get" border="0"></a>
 
 
 <h2><strong>Resultados y&nbsp;</strong><strong>an&aacute;lisis&nbsp;</strong></h2>
-<a href="https://ibb.co/80r83Xj"><img src="https://i.ibb.co/1Lr2Vb9/scri.png" alt="scri" border="0"></a>
+
+
 <h2><strong>conclusiones.</strong></h2>
